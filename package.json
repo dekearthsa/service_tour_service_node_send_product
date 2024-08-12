@@ -1,0 +1,21 @@
+{
+  "name": "service_node_send_product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^8.5.0",
+    "@google-cloud/storage": "^7.7.0",
+    "@types/whatwg-url": "^11.0.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.2"
+  }
+}
